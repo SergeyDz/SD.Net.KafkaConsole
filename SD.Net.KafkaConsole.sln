@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Runner", "Runner\Runner.csproj", "{C0239251-CAA9-4FE5-8CC0-9A3C3AD97693}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consumer", "Consumer\Consumer.csproj", "{2FC54623-CC1E-4F4E-B2A1-4FFB2AC07CE4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SimpleKafka", "SimpleKafka", "{8163505F-E453-476E-BA2F-63F34258F2C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Producer", "Producer\Producer.csproj", "{06D3826E-138F-4B9A-B5DD-066871E74CA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleConsumer", "SimpleConsumer\SimpleConsumer.csproj", "{130BDA9A-A4CC-4366-B6FA-33DB4EB261BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MsKafka", "MsKafka", "{6BAD2744-7E6B-4992-9F9F-45C9FF1DD981}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicrosoftKafka", "MicrosoftKafka\MicrosoftKafka.csproj", "{C1409E8D-7CD4-493A-B70E-5D319AF22856}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicrosoftKafka.Producer", "MicrosoftKafka.Producer\MicrosoftKafka.Producer.csproj", "{F80DC964-53F6-4115-A3CA-E9702036FF1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0239251-CAA9-4FE5-8CC0-9A3C3AD97693}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0239251-CAA9-4FE5-8CC0-9A3C3AD97693}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0239251-CAA9-4FE5-8CC0-9A3C3AD97693}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0239251-CAA9-4FE5-8CC0-9A3C3AD97693}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FC54623-CC1E-4F4E-B2A1-4FFB2AC07CE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FC54623-CC1E-4F4E-B2A1-4FFB2AC07CE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FC54623-CC1E-4F4E-B2A1-4FFB2AC07CE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FC54623-CC1E-4F4E-B2A1-4FFB2AC07CE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06D3826E-138F-4B9A-B5DD-066871E74CA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06D3826E-138F-4B9A-B5DD-066871E74CA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06D3826E-138F-4B9A-B5DD-066871E74CA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06D3826E-138F-4B9A-B5DD-066871E74CA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{130BDA9A-A4CC-4366-B6FA-33DB4EB261BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{130BDA9A-A4CC-4366-B6FA-33DB4EB261BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{130BDA9A-A4CC-4366-B6FA-33DB4EB261BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{130BDA9A-A4CC-4366-B6FA-33DB4EB261BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1409E8D-7CD4-493A-B70E-5D319AF22856}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1409E8D-7CD4-493A-B70E-5D319AF22856}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1409E8D-7CD4-493A-B70E-5D319AF22856}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1409E8D-7CD4-493A-B70E-5D319AF22856}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F80DC964-53F6-4115-A3CA-E9702036FF1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F80DC964-53F6-4115-A3CA-E9702036FF1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F80DC964-53F6-4115-A3CA-E9702036FF1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F80DC964-53F6-4115-A3CA-E9702036FF1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{06D3826E-138F-4B9A-B5DD-066871E74CA1} = {8163505F-E453-476E-BA2F-63F34258F2C8}
+		{130BDA9A-A4CC-4366-B6FA-33DB4EB261BA} = {8163505F-E453-476E-BA2F-63F34258F2C8}
+		{C1409E8D-7CD4-493A-B70E-5D319AF22856} = {6BAD2744-7E6B-4992-9F9F-45C9FF1DD981}
+		{F80DC964-53F6-4115-A3CA-E9702036FF1A} = {6BAD2744-7E6B-4992-9F9F-45C9FF1DD981}
+	EndGlobalSection
+EndGlobal
